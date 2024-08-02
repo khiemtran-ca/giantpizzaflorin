@@ -1,0 +1,552 @@
+/* ClearFix  */
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+* {
+box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+/* My CSS Below */
+
+/* 1040PX to Max */
+ul li {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+} 
+
+#orderPage{
+  background-color:  #918989;
+}
+
+#adminLoginPage {
+  margin: 50px 50px 50px 50px;
+  width: auto;
+  display: flex;
+  background-color: rgb(211, 37, 37);
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px #2c030342
+}
+
+.hidden {
+  display: none
+}
+
+#toppingBox {
+  position: absolute;
+  z-index: 1;
+  background-color: #555353;
+  border-radius: 10px;
+  color: #a7f8a9;
+  width: 20%;
+  text-align: center;
+}
+
+.itemName, .sodaName {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0px;
+  color: #fffb90;
+  filter: drop-shadow(5px 10px 5px rgb(59, 85, 61));
+}
+
+#freeDelivery{
+  font-size: 100px;
+  padding: 15px;
+  width: 100%;
+  filter: drop-shadow(16px 16px 20px white);
+  animation-duration: 3000ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes blink {
+  0% {color: #FF0000;}
+  10% {color: #FF8000;}
+  20% {color: #FFFF00;}
+  30% {color: #80FF00; transform: scale(2);}
+  40% {color: #00FF00;}
+  50% {color: #00FF80; transform: scaleY(2);}
+  60% {color: #00FFFF;}
+  70% {color: #0080FF; transform: skewX(270deg);}
+  80% {color: #0000FF;}
+  90% {color: #8000FF;}
+  100% {color: #FF0080;}
+}
+
+#intro, .btn-lg, .icon, .open, .checkOut, .fillOut{
+  font-size: 50px;
+  filter: drop-shadow(5px 10px 5px black);
+}
+
+.container{
+  border-top: double red;
+  border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
+  border-bottom: double red;
+  border-bottom-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+  max-width: 1750px;
+}
+
+.mainImg{
+  width:100%;
+  border-radius: 50px;
+  box-shadow: 0px 0px 46px 0px rgb(204, 201, 201);
+}
+
+.inputStyle, .delBtn {
+  display: flex;
+  width: 55px;
+  font-size: 27px;
+  height: 35px;
+  border: solid red 1px;
+  border-radius: 10px;
+  margin: 0px 10px 10px 10px;
+  filter: drop-shadow(0px 5px 4px rgb(196, 101, 101));
+  justify-content: center;
+  align-items: center;
+}
+
+#mainMenu, #sideMenu, #clockDate{
+  margin: 10px auto 10px auto;
+  border-left: double 5px red;
+  border-right: double 5px red;
+  position: relative;
+}
+
+.sideImg{
+  border-radius: 130px;
+  box-shadow: 0px 0px 20px 0px white;
+  width: 90%;
+}
+
+.mainImg:hover, .sideImg:hover{
+  filter: hue-rotate(360deg);
+  transition: .90s;
+}
+
+.mainDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sideDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainInfo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainPrice, .sidePrice, .sodaPrice{
+  display: flex;
+  font-size: 30px;
+}
+
+.drinkInfo{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sodaInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#drink, .logo, #thankYouMessage {
+  padding: 15px;
+  width: 90%;
+  text-align: center;
+  border-top: double 7px mediumvioletred;
+  border-bottom: double 7px mediumvioletred;
+  border-radius: 130px;
+  margin: 35px auto 35px auto;
+  animation-duration: 8000ms;
+  animation-name: blinkBlink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.hacking{
+  padding: 15px;
+  text-align: center;
+  border-top: double 7px mediumvioletred;
+  border-bottom: double 7px mediumvioletred;
+  border-radius: 130px;
+  margin: 35px auto 35px auto;
+  animation-duration: 5ms;
+  animation-name: blinkBlink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes blinkBlink {
+  0% {box-shadow: 0px 0px 46px 0px #ffffff;}
+  10% {box-shadow: 0px 0px 46px 0px #FF8000;}
+  20% {box-shadow: 0px 0px 46px 0px #FFFF00;}
+  30% {box-shadow: 0px 0px 46px 0px #80FF00;}
+  40% {box-shadow: 0px 0px 46px 0px #00FF00;}
+  50% {box-shadow: 0px 0px 46px 0px #00FF80;}
+  60% {box-shadow: 0px 0px 46px 0px #00FFFF;}
+  70% {box-shadow: 0px 0px 46px 0px #0080FF;}
+  80% {box-shadow: 0px 0px 46px 0px #0000FF;}
+  90% {box-shadow: 0px 0px 46px 0px #8000FF;}
+  100% {box-shadow: 0px 0px 46px 0px #FF0080;}
+}
+
+.sideMenuTitle, .mainMenuTitle, .sodaTitle{
+  color: salmon;
+  font-size: 85px;
+  font-weight: 800;
+  filter: drop-shadow(5px 10px 5px black);
+  font-family: fantasy;
+}
+
+#displayClockDate{
+  color: antiquewhite;
+  filter: drop-shadow(5px 10px 5px black);
+  box-shadow: 0px 0px 46px 0px white;
+  padding: 10px;
+  border-top: double 5px mediumvioletred;
+  border-bottom: double 5px mediumvioletred;
+  border-radius: 90px;
+  width: 40%;
+  margin: 0% 0% 3% 30%;
+  font-size: 30px;
+}
+
+.checkOutHeader{
+  display: flex;
+  justify-content: center !important;
+  color :#3700ff !important;
+}
+
+.infoFillOut{
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  display: flex;
+}
+
+.holder{
+  width:30%;
+}
+
+.purchaser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#customerName, #confirm {
+  text-transform: capitalize;
+  color: navy;
+  font-weight: 900;
+}
+
+.itemsOrder {
+  font-size: 20px;
+}
+
+/* Admin */
+
+#custInfo{
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+
+#dashBoard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cstInfoCard, .menusCard{
+  font-size: 45px;
+}
+
+.editPizza, .editSide, .editSoda{
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+}
+
+#menus, #CustomersInfo, #report, #logout, .updateBtn{
+  font-size: 50px
+}
+
+/* max-width: 1024px */
+@media only screen and (max-width: 1024px)
+{
+  .mainPrice, .sidePrice, .sodaPrice {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  #intro, .btn-lg, .open, .icon, .checkOut, .fillOut{
+    font-size: 40px;
+  }
+
+  .sideImg {
+  width: 85%;
+  }
+
+  .sideMenuTitle, .mainMenuTitle, .sodaTitle{
+    font-size: 60px;
+  }
+
+  .itemName, .sodaPrice, .sodaName {
+    font-size: 30px;
+  }
+
+  .clock, .showDate {
+    font-size:22px;
+  }
+
+  .infoFillOut{
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+  }
+
+  .seeYou{
+    font-size: 35px;
+  }
+
+ /* Modals */
+  .top {
+    font-size: 18px !important;
+  }
+
+  .itemsOrder, .notice {
+    font-size: 12px !important;
+  }
+
+  .tableTitle, .yourOrder{
+    font-size: 18px !important;
+  }
+
+  .inputStyle, .delBtn {
+    width: 25px;
+    font-size: 15px !important;
+    height: 20px
+  }
+
+  /* Admin */
+  #menus, #CustomersInfo, #report, #logout, .updateBtn{
+    font-size: 35px
+  }
+
+  #adminMenus{
+    font-size: 25px;
+  }
+  
+  .cstInfoCard, .menusCard{
+    font-size: 16px;
+  }
+
+  .editPizza, .editSide, .editSoda{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+  }
+
+  .itemOrderDate{
+    font-size: 12px !important;
+  }
+
+  /*  */
+}
+/* End max-width: 1024px */
+
+/* max-width: 376px */
+@media only screen and (max-width: 376px)
+{
+
+  #intro, .btn-lg, .open, .icon, .checkOut, .fillOut{
+    font-size: 23px;
+  }
+
+  .sideMenuTitle, .mainMenuTitle, .sodaTitle{
+    font-size: 42px;
+  }
+
+  #freeDelivery{
+    font-size: 15px !important;
+    filter: drop-shadow(16px 16px 20px white);
+    animation-duration: 3000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes blink {
+    0% {color: #FF0000;}
+    10% {color: #FF8000;}
+    20% {color: #FFFF00;}
+    30% {color: #80FF00; transform: scale(5);}
+    40% {color: #00FF00;}
+    50% {color: #00FF80; transform: scaleY(5);}
+    60% {color: #00FFFF;}
+    70% {color: #0080FF; transform: skewX(375deg);}
+    80% {color: #0000FF;}
+    90% {color: #8000FF;}
+    100% {color: #FF0080;}
+  }
+
+  .inputStyle, .delBtn{ 
+    margin: 0px;
+    width: 30px;
+    font-size: 20px;
+    height: 20px;
+  }
+
+  .sideImg {
+    width: 70%;
+  }
+
+  .clock, .showDate, .sodaPrice {
+    font-size: 18px;
+  }
+
+  .infoFillOut, .fillOut{
+    margin: 0px !important;
+    font-size: 15px;
+  }
+
+  #freeDelivery {
+  font-size: 30px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  border-top: double 7px mediumvioletred;
+  border-bottom: double 7px mediumvioletred;
+  border-radius: 129px;
+  margin: 35px auto 35px auto;
+  animation-duration: 8000ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  }
+
+  .freeDeli{
+    margin: 0px !important;
+  }
+
+  .drinkInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .holder{
+    width:60%;
+    font-size: 15px;
+  }
+  
+ /* Modals */
+  .top {
+    font-size: 20px !important;
+  }
+
+  .notice {
+    font-size: 12px !important;
+  }
+
+  .tableTitle, .yourOrder{
+    font-size: 16px !important;
+  }
+
+  .grandTotal{
+    margin: 0px !important;
+  }
+
+  .bottomSide {
+    font-size: 18px !important;
+  }
+
+  /* Admin */
+  .tableTitle, .cstInfoCard{
+    font-size: 15px !important;
+  }
+
+  #adminMenus{
+    width: 100%;
+  }
+
+  #menus, #CustomersInfo, #report, #logout, .updateBtn{
+    font-size: 20px
+  }
+
+  .cstInfoCard, .menusCard{
+    font-size: 18px;
+  }
+  .editPizza, .editSide, .editSoda{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+}
+/* End max-width: 376px */
+
+/* Max-width: 667px */ 
+@media only screen and (max-width: 667px)
+{
+  #adminMenus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Admin Customer Info */
+  .tableTitle{
+    font-size: 15px !important;
+  }
+
+  .table {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* End max-width: 667px */

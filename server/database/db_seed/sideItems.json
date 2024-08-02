@@ -1,0 +1,24 @@
+{
+    "name": "🥗Salad",
+    "price": 995,
+    "img": "./Assets/Images/salad.jpeg",
+    "description": "Green Onion, Mushroom, Green Pepper, Onion, Olive, Tomato, Artichock"
+}
+{
+    "name": "🍰Cheese Cake",
+    "price": 1995,
+    "img": "./Assets/Images/cheesecake.jpeg",
+    "description": "None Description"
+}
+{
+    "name": "🍗Chicken Wings",
+    "price": 1095,
+    "img": "./Assets/Images/chickenwings.jpeg",
+    "description": "Deep Fried Wings With Secret Sauce"
+}
+{
+    "name": "🥖Bread Stick",
+    "price": 1195,
+    "img": "./Assets/Images/breadstick.jpeg",
+    "description": "None Description"
+}

@@ -1,0 +1,63 @@
+{
+    "name": "🍕Combination",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [5995, 4995, 3995],
+    "img": "./Assets/Images/combo.jpeg",
+    "description": "Pepperoni, Salami, Italian Sausage, Ground Beef, Mushroom, Green Pepper, Onion, Olive, Tomato"
+}
+{
+    "name": "🥩Meat Lover",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [6995, 5995, 4995],
+    "img": "./Assets/Images/meatlover.jpeg",
+    "description": "Peperoni, Salami, Italian Sausage, Ground Beef, Bacon, Real Bacon, Chicken"
+}
+{
+    "name": "🧀Cheeses Lover",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [2995, 1995, 1595],
+    "img": "./Assets/Images/cheeses.jpeg",
+    "description": "Chesses, Gralic, Cheeses, Garlic, Mushroom, Onion, Green Pepper, Olive, Tomato"
+}
+{
+    "name": "🍗Chicken Pluck",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [3995, 2995, 1995],
+    "img": "./Assets/Images/chicken.jpeg",
+    "description": "Chicken, Real Bacon, Italian Sausage, Mushroom, Green Pepper, Onion, Olive, Tomato, Pine Apple, Garlic, White Sauce"
+}
+{
+    "name": "🥓Hawaiian Style",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [3995, 2995, 1995],
+    "img": "./Assets/Images/hawaiian.jpeg",
+    "description": "Canadian Bacon, Real Bacon, Pine Apple, Onion, Garlic, Green Pepper, Tomato"
+}
+{
+    "name": "🦆Crazy Asian",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [4995, 3995, 2995],
+    "img": "./Assets/Images/asian.jpeg",
+    "description": "Duck, Salami, Ground Beef, Mushroom, Green Pepper, Onion, Olive, Tomato, Garlic"
+}
+{
+    "name": "🦐Giant Messy",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [6995, 5995, 4995],
+    "img": "./Assets/Images/giantmess.jpeg",
+    "description": "Lobster, Otopus, Tiger Shrimp, Anchovie, Smoke Salmon, Peperoni, Salami, Beef"
+}
+{
+    "name": "🐙Seafood",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [5995, 4995, 3995],
+    "img": "./Assets/Images/seafood.jpeg",
+    "description": "Lobster, Otopus, Tiger Shrimp, Anchovie, Smoke Salmon,Green Pepper, Tomato, Garlic"
+}
+{
+    "name": "🥦Vegetarian Lover",
+    "sizes": ["32\" Giant", "16\" XLarge", "12\" Large"],
+    "prices": [2995, 1995, 1595],
+    "img": "./Assets/Images/vege.jpeg",
+    "description": "Basil Leaves, Green Onion, Mushroom, Green Pepper, Onion, Olive, Tomato, Artichock"
+}
